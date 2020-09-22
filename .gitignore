@@ -1,0 +1,5 @@
+*.o*
+*.plist
+*.sw*
+build/
+_build/
