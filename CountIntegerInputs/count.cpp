@@ -12,23 +12,23 @@
 
 int main() {
     std::cout << "Counts number of times an integer was entered "
-              << "until a different integer is entered." << "\r\n";
+              << "until a different integer is entered." << std::endl;
     std::cout << "Please enter integers:" << std::endl;
-    int currVal = 0, val = 0;
-    if (std::cin >> currVal) {
+    int curr_val = 0, val = 0;
+    if (std::cin >> curr_val) {
         int cnt = 1;
         while (std::cin >> val) {
-            if (currVal == val) {
+            if (curr_val == val) {
                 ++cnt;
             }
             else {
-                std::cout << "The value " << currVal << " occurs "
+                std::cout << "The value " << curr_val << " occurs "
                 << cnt << " times." << std::endl;
-                currVal = val;
+                curr_val = val;
                 cnt = 1;
             }
         }
-        std::cout << "The value " << currVal << " occurs "
+        std::cout << "The value " << curr_val << " occurs "
         << cnt << " times." << std::endl;
     }
     return 0;
