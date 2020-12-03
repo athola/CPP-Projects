@@ -1,11 +1,11 @@
 //
-//  forloopsum.cpp
+//  for_loop_sum.cpp
 //  ForLoopSum
 //
 //  Created by Alexander Thola on 6/22/16.
 //  Copyright © 2016 Alexander Thola. All rights reserved.
 //
-//  Compile using 'gcc forloopsum.cpp -o forloopsum.o -lsdtc++'
+//  Compile using 'gcc for_loop_sum.cpp -o for_loop_sum.o -lsdtc++'
 //
 
 #include <iostream>

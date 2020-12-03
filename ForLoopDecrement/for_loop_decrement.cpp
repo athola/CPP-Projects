@@ -1,11 +1,11 @@
 //
-//  forloopdecrement.cpp
+//  for_loop_decrement.cpp
 //  ForLoopDecrement
 //
 //  Created by Alexander Thola on 6/22/16.
 //  Copyright © 2016 Alexander Thola. All rights reserved.
 //
-//  Compile using 'gcc forloopdecrement.cpp -o forloopdecrement.o -lsdtc++'
+//  Compile using 'gcc for_loop_decrement.cpp -o for_loop_decrement.o -lsdtc++'
 //
 
 #include <iostream>
