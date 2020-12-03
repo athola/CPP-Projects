@@ -9,7 +9,7 @@
 //
 
 #include <iostream>
-#include "../util/Sales_item.h"
+#include "../../util/Sales_item.h"
 
 int main() {
     Sales_item item1, item2;

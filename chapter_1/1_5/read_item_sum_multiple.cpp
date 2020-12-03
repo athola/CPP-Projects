@@ -11,7 +11,7 @@
 
 #include <iostream>
 #include <vector>
-#include "../util/Sales_item.h"
+#include "../../util/Sales_item.h"
 
 int main() {
     Sales_item sales_item;
@@ -27,8 +27,8 @@ int main() {
             initial_isbn = sales_item.isbn();
         }
         if (sales_item.isbn() != initial_isbn) {
-            std::cout << "Entered non-matching ISBN, exiting." << std::endl;
-            return 1;
+            std::cerr << "Entered non-matching ISBN, exiting." << std::endl;
+            return -1;
         }
         sales_items.push_back(sales_item);
         item_count++;

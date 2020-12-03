@@ -10,7 +10,7 @@
 
 #include <iostream>
 #include <vector>
-#include "../util/Sales_item.h"
+#include "../../util/Sales_item.h"
 
 int main() {
     Sales_item sales_item;

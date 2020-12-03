@@ -9,7 +9,7 @@
 //
 
 #include <iostream>
-#include "../util/Sales_item.h"
+#include "../../util/Sales_item.h"
 
 int main() {
     Sales_item sales_item_1, sales_item_2;
@@ -19,8 +19,8 @@ int main() {
     std::cout << "Enter information for second sales item: " << std::endl;
     std::cin >> sales_item_2;
     if (!compareIsbn(sales_item_1, sales_item_2)) {
-        std::cout << "ISBNs of these sales items do not match." << std::endl;
-        return 1;
+        std::cerr << "ISBNs of these sales items do not match." << std::endl;
+        return -1;
     } else {
         std::cout << "The total for these matching ISBN sales items is: "
                   << sales_item_1 + sales_item_2 << std::endl;
