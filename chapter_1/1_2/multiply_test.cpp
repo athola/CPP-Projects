@@ -1,11 +1,11 @@
 //
-//  multiplytest.cpp
+//  multiply_test.cpp
 //  MultiplyTest
 //
 //  Created by Alexander Thola on 6/19/16.
 //  Copyright © 2016 Alexander Thola. All rights reserved.
 //
-//  Compile using 'gcc multiplytest.cpp -o multiplytest.o -lsdtc++'
+//  Compile using 'gcc multiply_test.cpp -o multiply_test.o -lsdtc++'
 //
 
 #include <iostream>

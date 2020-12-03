@@ -20,16 +20,15 @@ int main() {
         while (std::cin >> val) {
             if (curr_val == val) {
                 ++cnt;
-            }
-            else {
+            } else {
                 std::cout << "The value " << curr_val << " occurs "
-                << cnt << " times." << std::endl;
+                          << cnt << " times." << std::endl;
                 curr_val = val;
                 cnt = 1;
             }
         }
         std::cout << "The value " << curr_val << " occurs "
-        << cnt << " times." << std::endl;
+                  << cnt << " times." << std::endl;
     }
     return 0;
 }
